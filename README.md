@@ -144,6 +144,13 @@ self.postMessage({ foo: 'foo' })
 self.addEventListener('message', (event) => console.log(event))  
 ```
 
+### sharedWorker
+
+Type: `boolean`
+Default: `false`
+
+Uses SharedWorker rather than Worker.
+
 ### `Integrating with ES2015 Modules`
 
 > ℹ️  You can even use ES2015 Modules if you have the [`babel-loader`](https://github.com/babel/babel-loader) configured.
